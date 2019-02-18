@@ -338,4 +338,10 @@ Hello {$name ?: 'there'}
 {css('css-class')}
 ```
 
-> [See Docs](https://developers.google.com/closure/templates/docs/functions "Functions")
+###### ID selector
+
+```soy
+{xid('some-id')}
+```
+
+> [See Docs](https://developers.google.com/closure/templates/docs/commands#css "CSS")
