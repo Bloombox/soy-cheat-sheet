@@ -18,6 +18,7 @@ A collection of cool hidden and not so hidden features, to be used as a quick re
 * [Loops](#loops)
 * [Special Characters](#special-characters)
 * [Functions](#functions)
+* [CSS](#css)
 
 ## Namespace
 
@@ -325,6 +326,16 @@ Hello {$name ?: 'there'}
 ```soy
 {augmentMap(map1, map2)}
 {keys(map)}
+```
+
+> [See Docs](https://developers.google.com/closure/templates/docs/functions "Functions")
+
+## CSS
+
+###### class selector
+
+```soy
+{css('css-class')}
 ```
 
 > [See Docs](https://developers.google.com/closure/templates/docs/functions "Functions")
